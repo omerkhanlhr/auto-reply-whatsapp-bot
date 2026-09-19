@@ -65,7 +65,7 @@ By default the bot **only pastes** the reply. The `Enter` key press is commented
 Clone the repository and install the dependencies:
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/omerkhanlhr/auto-reply-whatsapp-bot>
 cd <your-project-folder>
 uv sync
 ```
@@ -216,4 +216,4 @@ This project automates a WhatsApp Web session. Automated messaging may violate W
 - Track the last processed message to avoid duplicate replies.
 - Add a polling interval and a clean exit condition to the main loop.
 - Add logging and specific exception handling around the Gemini call.
-- Split the code into functions and a package structure with tests (`pytest`).
+- Split the code into functions and a package structure with tests (`pytest`).8
